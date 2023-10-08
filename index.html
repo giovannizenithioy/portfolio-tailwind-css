@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Tailwind CSS</title>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6">My Portfolio | gzenithio</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="humberger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Tentang Saya</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Portfolio</a>
+                </li>
+                <li class="group">
+                  <a href="#clients" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Clients</a>
+                </li>
+                <li class="group">
+                  <a href="#blog" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Blog</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HERO SECTION START-->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua 👋🏻, saya <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Giovanni Zenithio Yusuf</span></h1>
+            <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">Web Developer | <span class="text-dark">Front End Developer</span></h2>
+            <p class="font-medium text-secondary mb-10 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque saepe quasi aliquid excepturi fuga!</p>
+
+            <a href="#" class="text-base text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out">Hubungi Saya</a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative lg:mt-0 lg:mr-0">
+              <img src="dist/img/formal.png" alt="Giovanni Zenithio" class="max-w-full mx-auto scale-75" />
+              <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2">
+                <svg width="550" height="460" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#de6b54"
+                    d="M37.3,-63.7C47.8,-58.6,55.4,-47.5,55.8,-35.9C56.2,-24.3,49.3,-12.1,52.9,2.1C56.5,16.3,70.6,32.6,70.4,44.4C70.1,56.2,55.5,63.6,41.4,63.9C27.3,64.2,13.7,57.4,1.4,55C-10.8,52.5,-21.7,54.4,-30.4,51C-39.2,47.7,-45.9,39,-46.8,29.6C-47.7,20.2,-42.8,10.1,-47.3,-2.6C-51.9,-15.4,-65.9,-30.7,-64.1,-38.6C-62.3,-46.4,-44.7,-46.7,-31.4,-50.2C-18.1,-53.8,-9,-60.6,2.2,-64.4C13.4,-68.1,26.8,-68.9,37.3,-63.7Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO SECTION END-->
+
+    <!-- ABOUT SECTION START -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4"></div>
+      </div>
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang saya</h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nesciunt molestias ipsum quibusdam quia sit esse quo officiis ad nobis.</p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 lg:mb-10">
+            <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa ratione atque necessitatibus deserunt, possimus quibusdam similique sapiente et quos.</p>
+            <div class="flex items-center">
+              <!-- GMAIL -->
+              <a
+                href="mailto:gzenithio@gmail.com?"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Gmail</title>
+                  <path
+                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                  />
+                </svg>
+              </a>
+              <!-- INSTAGRAM -->
+              <a
+                href="https://instagram.com/gzenithio"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- THREADS -->
+              <a
+                href="https://www.threads.net/@gzenithio"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Threads</title>
+                  <path
+                    d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"
+                  />
+                </svg>
+              </a>
+              <!-- LIKEDIN -->
+              <a
+                href="https://www.linkedin.com/in/gzenithio/"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>LinkedIn</title>
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- PORTFOLIO SECTION START -->
+    <section id="portfolio" class="pt-36 pb-16 bg-bgsec">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center">
+            <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Project Terbaru</h2>
+            <p class="font-medium text-base text-dark md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit repudiandae, vel iure obcaecati in maiores?</p>
+          </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center border-2 xl:w-10/12 xl:mx-auto">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/portfolio/1.jpeg" alt="img" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Project 1</h3>
+            <p class="font-medium text-base text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis optio aperiam natus.</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/portfolio/2.jpeg" alt="img" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Project 2</h3>
+            <p class="font-medium text-base text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. A quo hic provident?</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/portfolio/3.jpeg" alt="img" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Project 3</h3>
+            <p class="font-medium text-base text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor eos quasi soluta atque dolores corrupti molestiae quibusdam, voluptates itaque. Nesciunt enim assumenda autem.</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/portfolio/4.jpeg" alt="img" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Project 4</h3>
+            <p class="font-medium text-base text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi ratione facilis nulla laborum blanditiis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO SECTION END -->
+
+    <!-- CLIENT SECTION START -->
+    <section id="clients" class="pt-36 pb-16 bg-slate-700">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center">
+            <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+            <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Yang Pernah Bekerjasama</h2>
+            <p class="font-medium text-base text-secondary md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla enim neque dicta.</p>
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/gojek.svg" alt="gojek" />
+            </a>
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/lazada.svg" alt="lazada" />
+            </a>
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/google.svg" alt="google" />
+            </a>
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/tokopedia.svg" alt="google" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CLIENT SECTION END -->
+
+    <!-- BLOG SECTION START -->
+    <section id="blog" class="pt-36 pb-16">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center">
+            <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+            <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl">Tulisan Terkini</h2>
+            <p class="font-medium text-base text-secondary md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ullam molestias sapiente vitae nihil.</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4 mx-auto px-6 flex flex-wrap gap-6 justify-center">
+        <div class="flex flex-wrap">
+          <div class="w-full max-w-sm mb-8 rounded-lg shadow-lg overflow-hidden mt-6">
+            <img src="dist/img/blog/1.jpeg" alt="img" />
+            <div class="px-6 py-4">
+              <h2 class="mt-4 font-semibold">Tips Merawat Keyboard</h2>
+              <p class="mt-2 text-sm text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nobis, recusandae quam repudiandae consequuntur quasi dignissimos neque fugiat omnis accusantium iusto, at a.</p>
+              <a href="#" class="mt-2 mb-6 text-sm underline hover:text-primary hover:no-underline transition duration-300 ease-in-out"> Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full max-w-sm mb-8 rounded-lg shadow-lg overflow-hidden mt-6">
+            <img src="dist/img/blog/1.jpeg" alt="img" />
+            <div class="px-6 py-4">
+              <h2 class="mt-4 font-semibold">Tips Merawat Keyboard</h2>
+              <p class="mt-2 text-sm text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nobis, recusandae quam repudiandae consequuntur quasi dignissimos neque fugiat omnis accusantium iusto, at a.</p>
+              <a href="#" class="mt-2 mb-6 text-sm underline hover:text-primary hover:no-underline transition duration-300 ease-in-out"> Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full max-w-sm mb-8 rounded-lg shadow-lg overflow-hidden mt-6">
+            <img src="dist/img/blog/1.jpeg" alt="img" />
+            <div class="px-6 py-4">
+              <h2 class="mt-4 font-semibold">Tips Merawat Keyboard</h2>
+              <p class="mt-2 text-sm text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nobis, recusandae quam repudiandae consequuntur quasi dignissimos neque fugiat omnis accusantium iusto, at a.</p>
+              <a href="#" class="mt-2 mb-6 text-sm underline hover:text-primary hover:no-underline transition duration-300 ease-in-out"> Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BLOG SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4 mb-10">
+          <div class="mx-auto text-center">
+            <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+            <h2 class="font-bold text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+            <p class="font-medium text-base text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, consectetur odit.</p>
+          </div>
+        </div>
+        <form>
+          <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <label for="name" class="text-base text-primary font-bold">Nama</label>
+              <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="email" class="text-base text-primary font-bold">Email</label>
+              <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="name" class="text-base text-primary font-bold">Pesan</label>
+              <textarea type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button class="w-full text-base font-semibold text-white py-3 px-8 bg-primary rounded-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+    <!-- FOOTER START -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">Office</h2>
+            <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+            <p>gzenithio@gmail.com</p>
+            <p>Jl. Dahlia No. 55</p>
+            <p>Bandung</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#" class="inline-block text-base hover:text-primary mb-3">Perangkat Keras</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block text-base hover:text-primary mb-3">Teknologi</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block text-base hover:text-primary mb-3">Kehidupan</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a>
+              </li>
+              <li>
+                <a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+              </li>
+              <li>
+                <a href="#client" class="inline-block text-base hover:text-primary mb-3">Clients</a>
+              </li>
+              <li>
+                <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Blog</a>
+              </li>
+              <li>
+                <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-slate-600 border-opacity-50">
+          <div class="flex items-center justify-center mb-5">
+            <!-- GMAIL -->
+            <a
+              href="mailto:gzenithio@gmail.com?"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+            >
+              <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Gmail</title>
+                <path
+                  d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                />
+              </svg>
+            </a>
+            <!-- INSTAGRAM -->
+            <a
+              href="https://instagram.com/gzenithio"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+            >
+              <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+            <!-- THREADS -->
+            <a
+              href="https://www.threads.net/@gzenithio"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+            >
+              <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Threads</title>
+                <path
+                  d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"
+                />
+              </svg>
+            </a>
+            <!-- LIKEDIN -->
+            <a
+              href="https://www.linkedin.com/in/gzenithio/"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+            >
+              <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-xs text-secondary text-center">
+            Dibuat dengan <span class="text-red-500">❤</span> oleh <a href="https://instagram.com/gzenithio " target="_blank" class="font-bold text-primary hover:opacity-80 transition duration-300">Giovanni</a>, Menggunakan
+            <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500 hover:opacity-80 transition duration-300">Tailwind CSS</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FOOTER END -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
